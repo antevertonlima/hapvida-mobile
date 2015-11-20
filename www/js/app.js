@@ -18,12 +18,17 @@ angular.module('starter', ['ionic','ngCordova'])
 	}
 
 	if(navigator.onLine == true){
-		window.location.href = "http://www.hapvida.com.br/pls/webhap/webnewhapmovel.pr_menu_movel";
-		return false;
+		if(ionic.Platform.platform() == 'ios'){
+			window.location.href = "isIos.html";
+			return false;
+		}else{
+			ionic.Platform.platform() == 'android'
+			window.location.href = "isAndroid.html";
+			return false;
+		}		
 	}else{
 		window.location.href = "noConnection.html";
 	}
-
 });
 
 

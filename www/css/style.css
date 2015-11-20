@@ -1,4 +1,12 @@
 /* Empty. Add your own CSS if you like */
+.webPage.webPage{
+	width: 100% !important;
+	min-height: 97% !important;
+	margin-top: 3%;
+	border: none;
+	overflow: hidden !important;
+}
+
 .pane{
 	background: #fff;
 }
