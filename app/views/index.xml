@@ -1,0 +1,5 @@
+<Alloy>
+    <Window class="container">
+        <WebView id="webview" top="20" url="http://www.hapvida.com.br/pls/webhap/webnewhapmovel.pr_menu_movel"/>
+    </Window>
+</Alloy>
